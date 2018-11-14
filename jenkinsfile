@@ -1,0 +1,9 @@
+pipeline {
+	agent Any {
+		stages {
+			stage('checkout') {
+				echo 'Hello'
+			}
+		}
+	}
+}
